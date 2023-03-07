@@ -1,0 +1,259 @@
+body{
+ 
+	font-family: 'Calibri', sans-serif;
+	margin:0;
+	z-index: 1;
+
+
+   /**
+	* background:linear-gradient(to top right,#FFFFFF 70%, #1B3D92);
+   url(IMG_Fond.jpg) no-repeat center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   #F57F01 = orange premier
+   #d67105 = orange second
+   #23478b = couleur bleu
+
+
+
+
+   background: linear-gradient(  #F2F3F4 0%, black 40%);
+
+   */
+}
+
+
+.main{
+   width: 100%;
+   height: 3300px;
+   overflow:hidden;
+}
+
+.debut{
+	z-index: 2;
+	position : fixed;
+	height: 300px;
+	width: 100%;
+ }
+ 
+ .couleur_menu{
+	position:absolute;
+	width: 100%;
+	height: 80px;
+	background-color: transparent;
+	display: flex; 
+ }
+ 
+ .menu_flex_droite{
+	flex: 1;
+	height: 80px;
+	flex-grow: 7;
+	display: flex;
+	align-items: center;
+	background-color: transparent;
+ }
+ 
+ .Acceuil a, .Notre_projet a, .Comment_jouer a, .contact a{
+	font-family: 'Unispace', sans-serif;
+	background-color: transparent;
+	height: 80px;
+	width: 50px;
+	padding: 10px;
+	font-size: 12pt;
+	text-decoration: none;
+	color: #F2F3F4;
+	margin-left: 20px;
+	transition-duration: 0.7s;
+	border-radius: 50px;
+	border: solid 1px transparent;
+	mix-blend-mode: difference;
+
+ }
+ 
+
+
+ .Acceuil :hover , .Notre_projet :hover, .Comment_jouer :hover, .contact :hover{
+	color:#a3a3a3 ;
+	border-radius: 50px;
+	transition-duration: 0.3s;
+	border: solid 1px #F2F3F4;
+ }
+
+
+ .name
+ {
+	border-top: 0px ;
+	background-color: black;
+	height: 1000px;
+	width: 100%;
+	margin-top: -55px;
+
+ }
+
+
+ .com p 
+ {
+	background-color: black;
+   	font-size: 42pt;
+	margin-left: 150px;
+	padding-top: 300px;
+	font-family: 'Unispace', sans-serif;
+	color: white;
+ }
+
+.transition
+{
+	height: 1800px;
+	width: 100%;
+	background: linear-gradient(black 0%, #6d297e  40%);
+}
+
+
+.part_one
+{
+	padding-top: 200px;
+	width: 80%;
+	margin: auto;
+	height: 500px;
+	position: relative;
+	display: flex;
+	
+
+}
+
+.cube_one
+{
+	height: 700px;
+	width: 50%;
+	background-color: #e2a8e6;
+	box-shadow: #a3a3a3;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	position: absolute;
+	flex: 1;
+
+}
+
+
+.cube_one p
+{
+	height: 200px;
+	width: 80%;
+	margin: auto;
+	padding-top: 7%;
+	font-size: 16pt;
+
+}
+
+
+.leun
+{
+	position: relative;
+	margin-left: 55%;
+	margin-top: 5%;
+}
+
+
+.part_two
+{
+	display: flex;
+	padding-top: 200px;
+	width: 80%;
+	margin: auto;
+	height: 500px;
+	position: relative;
+	
+
+}
+
+.cube_two
+{
+	height: 700px;
+	width: 50%;
+	margin-left: 50%;
+	background-color: #e2a8e6;
+	box-shadow: #a3a3a3;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	position: absolute;
+	flex: 1;
+
+}
+
+
+.cube_two p
+{
+	height: 200px;
+	width: 80%;
+	margin: auto;
+	font-size: 16pt;
+
+}
+
+.ledeux
+{
+	position: relative;
+	margin-left: 40%;
+	margin-top: 5%;
+}
+
+
+
+.end_line
+{
+	width: 40%;
+	height: 100px;
+	border-top: 1px solid gainsboro;
+	transform: skewY(3deg);
+	margin: auto;
+}
+
+
+
+.fin
+{
+	height: 500px;
+	width: 100% ;
+	transform-origin: left top;
+	transform: skewY(-3deg);
+	padding-top: 200px;
+	background: linear-gradient(  #6d297e 0%, rgb(117, 15, 56) 20%);
+}
+
+
+
+
+.Acceuil-fin a, .contact-fin a{
+	font-family: 'Unispace', sans-serif;
+	background-color: transparent;
+	height: 80px;
+	width: 50px;
+	padding: 10px;
+	font-size: 12pt;
+	text-decoration: none;
+	color: #F2F3F4;
+	margin-left: 20px;
+	transition-duration: 0.7s;
+	border-radius: 50px;
+	border: solid 1px transparent;
+	mix-blend-mode: difference;
+	margin-top: 30px;
+
+ }
+ 
+ .Acceuil-fin , .contact-fin {
+	height: 30px;
+	margin-top: 20px;
+
+
+ }
+
+
+ .Acceuil-fin :hover ,  .contact-fin :hover{
+	color:#a3a3a3 ;
+	transition-duration: 0.3s;
+ }
+
+
+
+
+
