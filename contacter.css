@@ -103,7 +103,7 @@ body{
 
 .transition
 {
-	height: 870px;
+	height: 950px;
 	width: 100%;
 	background: linear-gradient(black 0%, #6d297e  80%);
 }
@@ -208,6 +208,22 @@ body{
 
 
 
+.ou H1
+{
+	font-size: 16pt;
+   margin-left: 250px;
+   padding-top: 100px;
+   font-family: 'Unispace', sans-serif;
+   color: white;
+}
+
+.ou p
+{
+	font-size: 16pt;
+   margin-left: 350px;
+   font-family: 'Unispace', sans-serif;
+   color: white;
+}
 
 
 
@@ -248,7 +264,7 @@ body{
 
 
 
-.Acceuil-fin a, .contact-fin a{
+.Acceuil-fin a, .contact-fin a, .Comment_jouer-fin a, .Notre_projet-fin a{
 	font-family: 'Unispace', sans-serif;
 	background-color: transparent;
 	height: 80px;
@@ -265,8 +281,20 @@ body{
 	margin-top: 30px;
 
  }
+
+
+ .sep1
+ {
+	display: flex;
+ }
+
+ .sep2
+ {
+	display: flex;
+ }
  
- .Acceuil-fin , .contact-fin {
+ .Acceuil-fin , .contact-fin, .Comment_jouer-fin, .Notre_projet-fin {
+	flex: 1;
 	height: 30px;
 	margin-top: 20px;
 
@@ -274,11 +302,10 @@ body{
  }
 
 
- .Acceuil-fin :hover ,  .contact-fin :hover{
+ .Acceuil-fin :hover ,  .contact-fin :hover, .Comment_jouer-fin :hover, .Notre_projet-fin :hover{
 	color:#a3a3a3 ;
 	transition-duration: 0.3s;
  }
-
 
 
 

@@ -113,6 +113,78 @@ body{
 	height: 900px;
 
 }
+
+
+
+
+.leVS
+{
+	height: 300px;
+	width: 100%;
+	display: flex;
+	margin-top: -800px;
+}
+
+.jouer
+{
+	flex: 1;
+
+}
+
+
+.jouer2
+{
+	width: 35%;
+	float: right;
+	height: 100%;
+	background: url(Guerrier1-removebg-preview\ \(2\)\ \(1\)\ \(1\).png) center no-repeat ;
+
+}
+
+.Vs2
+{
+	width: 100%;
+	height: 100%;
+	background: url(Vs-removebg-preview\ \(1\).png) center no-repeat ;
+}
+
+.Vs
+{
+	flex: 1;
+}
+
+.ennemis2
+{
+	width: 35%;
+	float:left;
+	height: 100%;
+	background: url(Walker1-removebg-preview\ \(6\)\ \(1\)\ \(1\).png) center no-repeat ;
+
+}
+
+
+.ennemis
+{
+	flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .part_one
 {
 	padding-top: 400px;
@@ -230,6 +302,45 @@ body{
 
 
 
+
+
+
+
+.part-trois{
+	padding-top: 100px;
+	height: 500px;
+	width: 100%;
+	position: relative;
+}
+
+
+
+
+.cube-trois
+{
+	height: 500px;
+	width: 50%;
+	margin: auto;
+	background-color: #e2a8e6;
+	box-shadow: #a3a3a3;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	
+}
+
+
+.cube-trois p
+{
+	height: 200px;
+	width: 80%;
+	margin: auto;
+	padding-top: 5%;
+	font-size: 15pt;
+
+}
+
+
+
+
 .demo{
 	width: 100%;
 	background: url(img2.png) center no-repeat ;
@@ -269,7 +380,7 @@ body{
 
 
 
-.Acceuil-fin a, .contact-fin a{
+.Acceuil-fin a, .contact-fin a, .Comment_jouer-fin a, .Notre_projet-fin a{
 	font-family: 'Unispace', sans-serif;
 	background-color: transparent;
 	height: 80px;
@@ -286,8 +397,20 @@ body{
 	margin-top: 30px;
 
  }
+
+
+ .sep1
+ {
+	display: flex;
+ }
+
+ .sep2
+ {
+	display: flex;
+ }
  
- .Acceuil-fin , .contact-fin {
+ .Acceuil-fin , .contact-fin, .Comment_jouer-fin, .Notre_projet-fin {
+	flex: 1;
 	height: 30px;
 	margin-top: 20px;
 
@@ -295,7 +418,7 @@ body{
  }
 
 
- .Acceuil-fin :hover ,  .contact-fin :hover{
+ .Acceuil-fin :hover ,  .contact-fin :hover, .Comment_jouer-fin :hover, .Notre_projet-fin :hover{
 	color:#a3a3a3 ;
 	transition-duration: 0.3s;
  }
